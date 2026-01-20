@@ -10,7 +10,7 @@ import cors from 'cors'
 
 connectWithMongoose();
 app.use(cors({
-    origin:['https://question-store.netlify.app/'],
+    origin:['https://question-store.netlify.app'],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }));
