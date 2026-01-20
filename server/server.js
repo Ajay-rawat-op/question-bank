@@ -10,7 +10,7 @@ import cors from 'cors'
 
 connectWithMongoose();
 app.use(cors({
-    origin:['http://localhost:3000'],
+    origin:['https://question-store.netlify.app/'],
 }));
 
 app.use(express.json());
